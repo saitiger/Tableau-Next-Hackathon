@@ -1,0 +1,4 @@
+ClusterId,ClusterName,CreatedDate,Status
+C1,Export Issues,2025-09-01,open
+C2,Performance,2025-09-05,in review
+C3,UI/UX,2025-09-10,resolved
