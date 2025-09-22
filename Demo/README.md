@@ -1,4 +1,4 @@
-# What files are included (high level)
+# Explaining Demo Files
 
 - `clusters.csv` → one row per **feature/theme** (the roll-up)
 - `cluster_trend.csv` → one row per **theme per week** (for momentum lines)
