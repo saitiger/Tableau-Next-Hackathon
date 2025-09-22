@@ -22,14 +22,13 @@ This project automatically fetches Slack messages, performs preprocessing, runs 
 
 project/
 │
-├─ dags/
-│   └─ clustering\_dag.py        # Airflow DAG
+├─ clustering_dag.py        # Airflow DAG
 │
 ├─ data/
 │   └─ slack\_messages\_processed.csv  # Optional placeholder CSV
 │
 ├─ logs/
-│   └─ clustering.log           # Logs from clustering script
+│   └─ clustering.log           # Logs from clustering script (Generated on running)
 │
 ├─ clustering.py                # Main clustering pipeline
 │
