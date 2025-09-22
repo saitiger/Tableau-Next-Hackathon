@@ -1,0 +1,3 @@
+External_ID__c,Cluster_Name__c,Top_Keywords__c,Cluster_Size__c,Sample_Message__c,Score__c,Created_Date__c,Owner__c
+cluster_001,Onboarding Issues,onboarding;setup;login,125,Having trouble logging in to the portal after signup.,0.87,2025-09-20T14:30:00Z,
+cluster_002,Billing Questions,billing;invoice;charge,42,Why was I charged twice on my last invoice?,0.63,2025-09-19T09:00:00Z,

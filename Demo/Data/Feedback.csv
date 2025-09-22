@@ -1,21 +1,3 @@
-FeedbackId,Channel,UserId,UserName,MessageText,Timestamp
-M1,announcements,U2,Charlie,Feature request: Integration with Google Drive would be super helpful.,2025-08-23 04:09:31
-M2,product-feedback,U3,Eve,Can you make the mobile app faster?,2025-08-23 04:59:31
-M3,product-bugs,U1,Charlie,The export to CSV button doesn’t work on the dashboard.,2025-08-23 05:49:31
-M4,product-bugs,U4,Charlie,Can we add dark mode to the app?,2025-08-23 06:39:31
-M5,product-feedback,U5,Bob,Can you make the mobile app faster?,2025-08-23 07:29:31
-M6,announcements,U5,Eve,Search functionality could be improved with filters.,2025-08-23 08:19:31
-M7,product-bugs,U5,Bob,Bug: Profile picture upload fails sometimes.,2025-08-23 09:09:31
-M8,product-feedback,U4,Bob,Bug: Profile picture upload fails sometimes.,2025-08-23 09:59:31
-M9,product-feedback,U2,Diana,Search functionality could be improved with filters.,2025-08-23 10:49:31
-M10,announcements,U5,Charlie,Loving the new UI updates! Much cleaner now.,2025-08-23 11:39:31
-M11,announcements,U2,Diana,Can you make the mobile app faster?,2025-08-23 12:29:31
-M12,feature-requests,U4,Eve,Feature request: Integration with Google Drive would be super helpful.,2025-08-23 13:19:31
-M13,product-feedback,U3,Eve,Can we add dark mode to the app?,2025-08-23 14:09:31
-M14,announcements,U3,Bob,"The notifications are delayed, please fix.",2025-08-23 14:59:31
-M15,product-bugs,U5,Charlie,The export to CSV button doesn’t work on the dashboard.,2025-08-23 15:49:31
-M16,announcements,U1,Alice,App crashes when uploading files larger than 50MB.,2025-08-23 16:39:31
-M17,product-bugs,U5,Eve,Feature request: Integration with Google Drive would be super helpful.,2025-08-23 17:29:31
-M18,announcements,U1,Bob,Can we add dark mode to the app?,2025-08-23 18:19:31
-M19,feature-requests,U4,Bob,Excited about the new release today!,2025-08-23 19:09:31
-M20,announcements,U3,Bob,Loving the new UI updates! Much cleaner now.,2025-08-23 19:59:31
+External_ID__c,Cluster__c,Cluster_Member__c,Feedback_Text__c,Rating__c,Created_By__c,Created_Date__c
+feedback_0001,cluster_001,member_0001,Cluster correctly groups onboarding login issues.,5,system,2025-09-20T15:00:00Z
+feedback_0002,cluster_002,member_0003,Billing cluster isolates charge disputes well.,4,tester@example.com,2025-09-20T15:05:00Z

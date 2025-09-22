@@ -1,0 +1,34 @@
+Object,Field_API_Name,Field_Label,Data_Type,Required,Unique,Notes
+Cluster__c,External_ID__c,External ID,Text,No,Yes,Unique external key from pipeline
+Cluster__c,Cluster_Name__c,Cluster Name,Text,No,No,
+Cluster__c,Top_Keywords__c,Top Keywords,Long Text Area,No,No,semicolon-separated keywords
+Cluster__c,Cluster_Size__c,Cluster Size,Number,No,No,Integer count of members
+Cluster__c,Sample_Message__c,Sample Message,Long Text Area,No,No,
+Cluster__c,Score__c,Score,Number,No,No,Overall cluster score (0-1 float)
+Cluster__c,Created_Date__c,Created Date,Date/Time,No,No,ISO8601 recommended
+Cluster__c,Owner__c,Owner (User Lookup),Lookup(User),No,No,Optional owner user id
+Cluster_Member__c,External_ID__c,External ID,Text,No,Yes,Unique message/member ID
+Cluster_Member__c,Cluster__c,Cluster (Lookup),Text,No,No,Must contain Cluster.External_ID__c for lookup during import
+Cluster_Member__c,Message_Text__c,Message Text,Long Text Area,No,No,
+Cluster_Member__c,User_Name__c,User Name,Text,No,No,email or display name
+Cluster_Member__c,Timestamp__c,Timestamp,Date/Time,No,No,ISO8601 recommended
+Cluster_Member__c,Channel__c,Channel,Text,No,No,
+Feedback__c,External_ID__c,External ID,Text,No,Yes,Unique feedback ID
+Feedback__c,Cluster__c,Cluster (Lookup),Text,No,No,Either Cluster or Cluster Member must be populated
+Feedback__c,Cluster_Member__c,Cluster Member (Lookup),Text,No,No,Lookup to Cluster_Member.External_ID__c if feedback is member-level
+Feedback__c,Feedback_Text__c,Feedback Text,Long Text Area,No,No,
+Feedback__c,Rating__c,Rating,Number (1-5 recommended),No,No,"If you prefer picklist, set picklist values and update CSV accordingly"
+Feedback__c,Created_By__c,Created By,Text/Lookup(User),No,No,Use User ID for lookup if desired
+Feedback__c,Created_Date__c,Created Date,Date/Time,No,No,
+Score__c,External_ID__c,External ID,Text,No,Yes,Unique score ID
+Score__c,Cluster__c,Cluster (Lookup),Text,No,No,Populate with Cluster.External_ID__c if cluster-level metric
+Score__c,Cluster_Member__c,Cluster Member (Lookup),Text,No,No,Populate with Cluster_Member.External_ID__c if member-level metric
+Score__c,Metric_Name__c,Metric Name,Text,No,No,"e.g., Sentiment, Engagement"
+Score__c,Metric_Value__c,Metric Value,Number,No,No,Numeric metric value
+Score__c,Calculated_Date__c,Calculated Date,Date/Time,No,No,
+Audit_Log__c,External_ID__c,External ID,Text,No,Yes,Unique log ID
+Audit_Log__c,Action__c,Action,Picklist/Text,No,No,"e.g., Import, Cluster_Assignment, Score_Calculation"
+Audit_Log__c,Status__c,Status,Picklist,No,No,Success / Failure / In-Progress recommended
+Audit_Log__c,Details__c,Details,Long Text Area,No,No,Include error messages or stats
+Audit_Log__c,Run_Timestamp__c,Run Timestamp,Date/Time,No,No,
+Audit_Log__c,Run_By__c,Run By,Text/Lookup(User),No,No,User ID or system

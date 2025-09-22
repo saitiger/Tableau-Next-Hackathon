@@ -1,0 +1,3 @@
+External_ID__c,Cluster__c,Cluster_Member__c,Metric_Name__c,Metric_Value__c,Calculated_Date__c
+score_0001,cluster_001,,Engagement,4.2,2025-09-20T15:10:00Z
+score_0002,,member_0001,Sentiment,0.15,2025-09-20T15:11:00Z

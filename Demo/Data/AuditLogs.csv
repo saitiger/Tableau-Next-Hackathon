@@ -1,4 +1,0 @@
-AuditId,ClusterId,Action,Actor,Timestamp
-A1,C1,create,System,2025-09-01 10:00:00
-A2,C2,merge,PM1,2025-09-05 14:30:00
-A3,C3,update,PM2,2025-09-10 09:45:00

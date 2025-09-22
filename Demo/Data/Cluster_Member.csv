@@ -1,0 +1,4 @@
+External_ID__c,Cluster__c,Message_Text__c,User_Name__c,Timestamp__c,Channel__c
+member_0001,cluster_001,Having trouble logging in to the portal after signup.,alice@example.com,2025-09-19T10:15:00Z,general
+member_0002,cluster_001,I didn't get the account setup email.,bob@example.com,2025-09-19T10:20:00Z,onboarding
+member_0003,cluster_002,I see double charges on my card for last month.,carol@example.com,2025-09-18T08:45:00Z,billing
